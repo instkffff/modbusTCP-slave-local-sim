@@ -1,0 +1,18 @@
+{
+  "name": "modbuslocaltcp",
+  "version": "1.0.0",
+  "description": "test modbus slave",
+  "license": "ISC",
+  "author": "NightCandle",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "modbus-serial": "^8.0.25",
+    "ws": "^8.22.0"
+  }
+}
